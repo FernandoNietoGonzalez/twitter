@@ -1,4 +1,4 @@
-package com.fernando.nieto.acciona.domain.model.filter;
+package com.twitter.domain.model.filter;
 
 public enum OrderEnum {
     COUNTER;

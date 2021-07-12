@@ -1,4 +1,4 @@
-package com.fernando.nieto.acciona.infrastructure.repository.entity;
+package com.twitter.infrastructure.repository.entity;
 
 import lombok.Data;
 

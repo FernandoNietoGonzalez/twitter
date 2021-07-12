@@ -1,7 +1,7 @@
-package com.fernando.nieto.acciona.infrastructure.repository.adapter;
+package com.twitter.infrastructure.repository.adapter;
 
-import com.fernando.nieto.acciona.domain.model.Hashtag;
-import com.fernando.nieto.acciona.infrastructure.repository.entity.HashtagEntity;
+import com.twitter.domain.model.Hashtag;
+import com.twitter.infrastructure.repository.entity.HashtagEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.NullValuePropertyMappingStrategy;
 import org.mapstruct.factory.Mappers;

@@ -1,8 +1,8 @@
-package com.fernando.nieto.acciona.infrastructure.repository.criteria;
+package com.twitter.infrastructure.repository.criteria;
 
-import com.fernando.nieto.acciona.domain.exception.InvalidDataException;
-import com.fernando.nieto.acciona.domain.model.filter.HashtagFilter;
-import com.fernando.nieto.acciona.infrastructure.repository.entity.HashtagEntity;
+import com.twitter.domain.exception.InvalidDataException;
+import com.twitter.domain.model.filter.HashtagFilter;
+import com.twitter.infrastructure.repository.entity.HashtagEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

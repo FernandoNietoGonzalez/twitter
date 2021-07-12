@@ -1,8 +1,8 @@
-package com.fernando.nieto.acciona.application.controller.adapter;
+package com.twitter.application.controller.adapter;
 
-import com.fernando.nieto.acciona.domain.model.Tweet;
-import com.fernando.nieto.accionaapi.model.TweetApiDto;
-import com.fernando.nieto.accionaapi.model.UpdateTweetApiDto;
+import com.twitter.domain.model.Tweet;
+import com.twitter.model.TweetApiDto;
+import com.twitter.model.UpdateTweetApiDto;
 import org.mapstruct.AfterMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

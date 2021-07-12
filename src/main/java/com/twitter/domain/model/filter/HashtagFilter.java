@@ -1,4 +1,4 @@
-package com.fernando.nieto.acciona.domain.model.filter;
+package com.twitter.domain.model.filter;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

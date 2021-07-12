@@ -1,7 +1,7 @@
-package com.fernando.nieto.acciona.infrastructure.repository.criteria;
+package com.twitter.infrastructure.repository.criteria;
 
-import com.fernando.nieto.acciona.domain.model.filter.TweetFilter;
-import com.fernando.nieto.acciona.infrastructure.repository.entity.TweetEntity;
+import com.twitter.domain.model.filter.TweetFilter;
+import com.twitter.infrastructure.repository.entity.TweetEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

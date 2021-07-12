@@ -1,7 +1,7 @@
-package com.fernando.nieto.acciona.infrastructure.repository.adapter;
+package com.twitter.infrastructure.repository.adapter;
 
-import com.fernando.nieto.acciona.domain.model.Tweet;
-import com.fernando.nieto.acciona.infrastructure.repository.entity.TweetEntity;
+import com.twitter.domain.model.Tweet;
+import com.twitter.infrastructure.repository.entity.TweetEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.NullValuePropertyMappingStrategy;

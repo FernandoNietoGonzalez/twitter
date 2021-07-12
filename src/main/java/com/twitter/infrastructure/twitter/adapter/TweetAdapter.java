@@ -1,6 +1,6 @@
-package com.fernando.nieto.acciona.infrastructure.twitter.adapter;
+package com.twitter.infrastructure.twitter.adapter;
 
-import com.fernando.nieto.acciona.domain.model.Tweet;
+import com.twitter.domain.model.Tweet;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.NullValuePropertyMappingStrategy;

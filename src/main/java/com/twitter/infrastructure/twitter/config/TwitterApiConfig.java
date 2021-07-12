@@ -1,4 +1,4 @@
-package com.fernando.nieto.acciona.infrastructure.twitter.config;
+package com.twitter.infrastructure.twitter.config;
 
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Value;
