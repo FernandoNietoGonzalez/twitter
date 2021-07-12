@@ -1,0 +1,36 @@
+logging:
+  level:
+    org.springframework: INFO
+    com.fernando.nieto.acciona: DEBUG
+
+springdoc:
+  paths-to-exclude: /swagger-resources/**
+
+spring:
+  application:
+    name: acciona
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+acciona:
+  twitter:
+    languages: es,fr,it
+    followers: 1500
+    cronTime: 10000
+  consumerKey: kTkLPm4zJD3zJd2euxt7q5EYa
+  consumerSecret: THPZVi8klywxONomZP9UikclXAaxRtpEB9Fc56S7BM8CjotgWW
+  accessToken: 1409454386980474885-i866o0FTtuwmXOKYGUBy9mqFEYmtQz
+  accessTokenSecret: IbuzCiDq4hUek12gKiwYHUGXzi6LWLaRosyCrQ4qv1Fgm
