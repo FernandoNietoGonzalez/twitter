@@ -8,10 +8,10 @@
         <version>2.5.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.fernando.nieto</groupId>
+    <groupId>com.twitter</groupId>
     <artifactId>acciona</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>acciona</name>
+    <name>twitter</name>
     <description>Project for Acciona</description>
     <properties>
         <java.version>1.8</java.version>
@@ -19,8 +19,8 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.fernando.nieto</groupId>
-            <artifactId>acciona-api-contracts</artifactId>
+            <groupId>com.twitter</groupId>
+            <artifactId>twitter-api-contracts</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
